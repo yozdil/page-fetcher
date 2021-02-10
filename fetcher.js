@@ -31,18 +31,8 @@ request(url, (error, response, body) => {
   });
 });
 
-// // First we verify if the path provided already exists.
-// fs.access(path, fs.F_OK, (err) => {
-//   if (err) {
-//     // As the path doesn't exist we go ahead and write it.
-//     //  REQUEST LIBRARY
-
-//     return;
-//   }
-//   // If the file we are trying to write already exists.
-//   // LEFT HERE!!!!!
-//   rl.question("How ya doin?\n", (input) => {
-//     readline.moveCursor(process.stdout, 0, -1);
-//     console.log("seems like you'r doing " + input.toString());
-//   });
-// });
+// STRETCH CAN BE IMPLEMENTED
+// Optional / Stretch: If the file already exists, let the user know and prompt
+// them to type in Y(followed by the enter key) to overwrite the file, otherwise
+// skip and exit the app. We suggest using the readline module, which we've
+// previously used.
